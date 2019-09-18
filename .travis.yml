@@ -31,6 +31,7 @@ install:
  # Install PyMTL
 
  - pip -q install git+https://github.com/cornell-brg/pymtl.git
+ - pip install --upgrade pytest
  - pip list
 
 #------------------------------------------------------------------------
